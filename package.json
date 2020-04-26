@@ -2,17 +2,17 @@
   "name": "@sadrasamadi/tsconfig",
   "version": "1.0.0",
   "description": "Typescript configuration for my projects.",
+  "author": "Sadra Samadi <sadra.smd@gmail.com> (https://sadrasamadi.github.io/)",
+  "repository": "https://github.com/SadraSamadi/tsconfig",
+  "license": "MIT",
   "keywords": [
     "typescript",
     "tsconfig"
   ],
-  "license": "MIT",
-  "author": "Sadra Samadi <sadra.smd@gmail.com> (https://sadrasamadi.github.io/)",
   "files": [
     "tsconfig.json"
   ],
   "main": "tsconfig.json",
-  "repository": "https://github.com/SadraSamadi/tsconfig",
   "dependencies": {
     "tslib": "^1.11.1"
   }
