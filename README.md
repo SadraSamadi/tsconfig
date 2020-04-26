@@ -10,8 +10,8 @@ Typescript configuration for my projects.
 
 ## Install
 
-* **NPM** `npm i electron-app-scripts`
-* **Yarn** `yarn add electron-app-scripts`
+* **NPM** `npm i @sadrasamadi/tsconfig`
+* **Yarn** `yarn add @sadrasamadi/tsconfig`
 
 ## Usage
 
