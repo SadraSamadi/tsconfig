@@ -5,7 +5,6 @@
       "DOM.Iterable",
       "ESNext"
     ],
-    "outDir": "dist",
     "target": "ES2019",
     "module": "CommonJS",
     "moduleResolution": "Node",

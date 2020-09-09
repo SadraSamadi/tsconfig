@@ -20,7 +20,12 @@ Typescript configuration for my projects.
 ```json
 {
   "extends": "@sadrasamadi/tsconfig",
-  "include": ["src"]
+  "compilerOptions": {
+    "outDir": "dist"
+  },
+  "include": [
+    "src"
+  ]
 }
 ```
 
