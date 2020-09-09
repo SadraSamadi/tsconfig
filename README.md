@@ -10,8 +10,8 @@ Typescript configuration for my projects.
 
 ## Install
 
-* **NPM** `npm i @sadrasamadi/tsconfig`
-* **Yarn** `yarn add @sadrasamadi/tsconfig`
+- **NPM** `npm i -D typescript @sadrasamadi/tsconfig` and `npm i tslib`
+- **Yarn** `yarn add -D typescript @sadrasamadi/tsconfig` and `yarn add tslib`
 
 ## Usage
 
@@ -19,6 +19,17 @@ Typescript configuration for my projects.
 
 ```json
 {
-  "extends": "@sadrasamadi/tsconfig"
+  "extends": "@sadrasamadi/tsconfig",
+  "include": ["src"]
+}
+```
+
+`package.json`
+
+```json
+{
+  "scripts": {
+    "build": "tsc --outDir dist"
+  }
 }
 ```
