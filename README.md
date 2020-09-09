@@ -29,7 +29,7 @@ Typescript configuration for my projects.
 ```json
 {
   "scripts": {
-    "build": "tsc --outDir dist"
+    "build": "tsc"
   }
 }
 ```
