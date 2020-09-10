@@ -13,6 +13,9 @@
     "tsconfig.json"
   ],
   "main": "tsconfig.json",
+  "scripts": {
+    "release": "yarn publish --prerelease"
+  },
   "peerDependencies": {
     "tslib": "*",
     "typescript": "*"
