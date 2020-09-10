@@ -1,6 +1,6 @@
 {
   "name": "@sadrasamadi/tsconfig",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Typescript configuration for my projects.",
   "author": "Sadra Samadi <sadra.smd@gmail.com> (https://sadrasamadi.github.io/)",
   "repository": "https://github.com/SadraSamadi/tsconfig",
@@ -14,7 +14,7 @@
   ],
   "main": "tsconfig.json",
   "scripts": {
-    "release": "yarn publish --prepatch"
+    "release": "yarn publish"
   },
   "peerDependencies": {
     "tslib": "*",
